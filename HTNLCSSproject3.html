@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>IMAGE HOVER ANIMATION</title>
+    <style>
+        body{
+            background: rgb(118, 163, 133);
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding-top: 100px;        }
+        .ani{
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 6px solid rgb(99,99,92);
+           
+        }
+        .ani img{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+            filter: grayscale(100%);
+            transition: 0.5s ease-in;
+            cursor: pointer;
+        }
+        .ani img:hover{
+            transform: scale(1.2);
+            filter: grayscale(0);
+            zoom: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="ani">
+        <img src="lion.jpg" alt="lion">
+    </div></div>
+</body>
+</html>
