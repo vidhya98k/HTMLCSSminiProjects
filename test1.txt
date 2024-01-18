@@ -1,7 +1,5 @@
 <!DoCTYPE html>
 <html>
-
-
 <head>
   <style>
     body{
